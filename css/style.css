@@ -1,0 +1,93 @@
+@import url('resets.css');
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+/* ==========================================================================
+   Globals
+   ========================================================================== */
+/**
+ * This houses all the global css classes
+ */
+
+html, body {
+	height:100%;	
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrap {
+	width:100%;
+	position:relative;
+	overflow:none;
+	padding: 0% 2%;
+}
+.mobile-header,
+.mobile-logo,
+.mobile-nav {
+		display: none;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.block {
+	display:block;
+}
+.none {
+	display:none;
+}
+.relative {
+	position:relative;
+}
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align:right;
+}
+.center {
+	text-align:center;
+}
+.bold {
+	font-weight:700;
+}
+.italic {
+	font-style:italic;
+}
+.uppercase {
+	text-transform:uppercase;
+}
+.oswald {
+	font-family: "Oswald", sans-serif;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/**
+ * This houses all the header classes
+ *
+ * This section also stores all of the splash (slider) css classes
+ *
+ * Excludes:
+ *
+ * All of the external css files that are used to render the slider (direct download)
+ */
+
+
+
+
+ /* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/**
+ * this section houses all the responsive layouts/media queries
+ */
+
+/* Full screen desktops */
+@media only screen and (min-width:1000px) {
+	.wrap {
+		width: 1000px;
+		margin: 0 auto;
+		padding: 0;
+	}
+}
