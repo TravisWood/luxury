@@ -1,5 +1,6 @@
 @import url('resets.css');
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
 /* ==========================================================================
    Globals
@@ -72,9 +73,180 @@ html, body {
  *
  * All of the external css files that are used to render the slider (direct download)
  */
+header {
+	position: relative;
+	z-index: 500;
+}
+.list {
+	display: inline-block;
+}
+.desktop {
+	float: right;
+}
+.desktop ul li {
+	float: left;
+	padding: 20px 45px;
+}
+.desktop ul li a {
+	text-decoration: none;
+	font-family: 'oxygen', sans-serif;
+	font-weight: 700;
+	color: #282828;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+/* TOP SECTION */
+
+
+.slider {
+	max-height: 485px;
+}
+.slider > a {
+	top: 250px;
+}
+.slider > img {
+	top: 288px;
+}
+.slider > p {
+	top: 405px;
+	font-family: 'Oxygen', sans-serif;
+	color: #282828;
+	font-weight: 700;
+	font-size: 13.52px;
+}
+.slider > p span {
+	font-size: 21.45px !important;
+}
+.slider > a,
+.slider > img,
+.slider > p {
+	position: absolute;
+	z-index: 999;
+}
+.top-box {
+	float: left;
+	width: 25%;
+	padding: 1%;
+}
+.top-box span {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+}
+.top-box p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/* MIDDLE */
+
+
+.test {
+	padding-top: 100px;
+}
+.middle h1 {
+	font-size: 36px;
+}
+.middle h1 span {
+	font-weight: 700;
+}
+.middle h2 {
+	font-size: 30px;
+}
+.middle h1,
+.middle h2 {
+	color: #282828;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	position: relative;
+	z-index: 500;
+	margin-bottom: 20px;
+}
+.middle a {
+	position: relative;
+	z-index: 500;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	background-color: #2265ae;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.splash {
+	position: relative;
+	z-index: 1;
+	float: right;
+	top: -225px;
+	margin-bottom: -150px;
+}
+
+.specs h1 {
+	display: inline-block;
+}
+.specs img {
+	float: left;
+}
+.specs p {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	color: #838383
+}
+
+
+.gallery {
+	padding: 100px 0;
+}
+.gallery h1 {
+	font-size: 30px;
+}
 
 
 
+/* FOOTER */
+
+
+footer {
+	padding-bottom: 50px !important;
+}
+footer p {
+	text-align: center;
+	margin: 15px 0;
+}
+footer p a {
+	display: inline-block;
+	padding: 15px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.3, #2699e2), to(#1e5598));
+	background-image: -webkit-linear-gradient(#2699e2 30%, #1e5598);
+	background-image: -moz-linear-gradient(#2699e2 30%, #1e5598);
+	background-image: -o-linear-gradient(#2699e2 30%, #1e5598);
+	background-image: linear-gradient(#2699e2 30%, #1e5598);
+}
+footer ul {
+	text-align: center;
+}
+footer ul li {
+	display: inline-block;
+	border-right: 1px solid #2693dd;
+	padding: 0 15px;
+}
+footer ul li:last-child {
+	border-right: none;
+}
+footer ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #2693dd;
+}
 
  /* ==========================================================================
    Media Queries
