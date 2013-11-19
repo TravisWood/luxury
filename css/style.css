@@ -212,6 +212,58 @@ header {
 }
 
 
+/* GALLERY PAGE */
+.features h1 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	letter-spacing: 10px;
+	color: #282828;
+	font-size: 30px;
+}
+.features hr {
+	border: 1px solid #e7e7e7;
+}
+.features > ul {
+	border: 1px solid #e7e7e7;
+	width: 20%;
+	margin-top: 3%;
+}
+.features > ul li {
+	background: url(../img/gallery-arrow.jpg) 95% 50% no-repeat;
+	list-style: none;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 10px;
+}
+.features ul li:last-child {
+	border-bottom: none
+}
+.features ul li a {
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #282828;
+}
+.galleries {
+	width: 75%;
+	float: right;
+	padding: 3% 0;
+}
+.galleries:last-child {
+	margin-bottom: 100px;
+}
+.galleries h2 {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #282828;
+	letter-spacing: 10px;
+}
+.galleries ul li {
+	float: left;
+	list-style: none;
+	padding: 5px;
+}
 
 /* FOOTER */
 
