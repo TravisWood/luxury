@@ -60,6 +60,35 @@ html, body {
 .oswald {
 	font-family: "Oswald", sans-serif;
 }
+hr {
+	border: 1px solid #e7e7e7;
+}
+h1, h2 {
+	font-family: 'Oxygen', sans-serif;
+}
+.light-blue {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #379cda;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	margin: 5px 0;
+}
+.dark-blue {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #2265ae;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
 
 /* ==========================================================================
    Header
@@ -161,7 +190,6 @@ header {
 .middle h1,
 .middle h2 {
 	color: #282828;
-	font-family: 'Oxygen', sans-serif;
 	font-weight: 400;
 	position: relative;
 	z-index: 500;
@@ -214,14 +242,10 @@ header {
 
 /* GALLERY PAGE */
 .features h1 {
-	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
 	letter-spacing: 10px;
 	color: #282828;
 	font-size: 30px;
-}
-.features hr {
-	border: 1px solid #e7e7e7;
 }
 .features > ul {
 	border: 1px solid #e7e7e7;
@@ -239,7 +263,7 @@ header {
 }
 .features ul li a {
 	text-decoration: none;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Oxygen', sans-serif; 
 	font-weight: 700;
 	font-size: 16px;
 	color: #282828;
@@ -253,7 +277,6 @@ header {
 	margin-bottom: 100px;
 }
 .galleries h2 {
-	font-family: 'Oxygen', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #282828;
@@ -264,6 +287,48 @@ header {
 	list-style: none;
 	padding: 5px;
 }
+
+
+/* SPECIALS PAGE */
+.specials {
+	padding: 10% 0;
+}
+.specials > h1 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #282828;
+	letter-spacing: 15px;
+}
+.deal {
+	display: inline-block;
+	width: 100%;
+	padding: 5% 0;
+}
+.see-details {
+	font-size: 12px;
+	color: #33a3d7;
+}
+.deal h1 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #393939;
+}
+.deal p {
+	font-family: 'Arial', sans-serif;
+	color: #393939;
+	font-size: 14px;
+}
+.price {
+	font-family: 'Arial', sans-serif;
+	font-size: 15.6px;
+	color: #868686;
+}
+.expiration {
+	font-family: 'Arial', sans-serif;
+	color: #9d9d9d;
+	font-size: 11px;
+}
+
 
 /* FOOTER */
 
