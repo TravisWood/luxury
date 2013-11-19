@@ -241,6 +241,7 @@ header {
 
 
 /* GALLERY PAGE */
+
 .features h1 {
 	font-weight: 700;
 	letter-spacing: 10px;
@@ -290,6 +291,7 @@ header {
 
 
 /* SPECIALS PAGE */
+
 .specials {
 	padding: 10% 0;
 }
@@ -327,6 +329,48 @@ header {
 	font-family: 'Arial', sans-serif;
 	color: #9d9d9d;
 	font-size: 11px;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonials h1 {
+	font-weight: 400;
+	color: #282828;
+	font-size: 24px;
+	letter-spacing: 8px;
+}
+.testimonials h1 + hr {
+	margin-bottom: 60px;
+}
+.testimonials blockquote {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	color: #393939;
+	text-align: justify;
+}
+.testimonials > div > p {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	color: #797979;
+	line-height: 25px;
+}
+.testimonials span {
+	color: #256cb4;
+	font-size: 14px;
+	font-family: 'Arial', sans-serif;
+}
+.testimonials hr + div {
+	float: left;
+	width: 36%;
+}
+.testimonial {
+	width: 33%;
+	padding: 5% 2%;
+	float: left;
+}
+img + .testimonial {
+	margin-top: 143px;
 }
 
 
