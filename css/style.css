@@ -406,6 +406,66 @@ img + .testimonial {
 	margin-bottom: 20px;
 }
 
+
+/* TECHNOLOGY PAGE */
+
+.informative h1 {
+	color: #282828;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 6px;
+	line-height: 46px;
+}
+.informative h1 span {
+	font-size: 24px;
+}
+.informative p {
+	font-size: 15px;
+	color: #282828;
+	font-family: 'Arial', sans-serif;
+	width: 45%;
+	margin-top: -50px;
+	text-align: justify;
+}
+.informative a,
+.heads-up a,
+.airbags a {
+	margin: 20px 0;
+}
+.tech-splash2 {
+	position: relative;
+	z-index: -1;
+	top: -85px;
+}
+.heads-up h1,
+.airbags h1 {
+	font-weight: 400;
+	font-size: 36px;
+	letter-spacing: 6px;
+}
+.heads-up p,
+.airbags p,
+.scc p {
+	font-size: 15px;
+	color: #282828;
+	font-family: 'Arial', sans-serif;
+	text-align: justify;
+}
+.scc {
+	margin-bottom: 100px;
+}
+.scc h1 {
+	font-weight: 400;
+	font-size: 43px;
+	letter-spacing: 6px;
+	line-height: 32px;
+}
+.scc h1 span {
+	font-size: 24px;
+}
+
+
+
 /* FOOTER */
 
 
