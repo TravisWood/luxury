@@ -465,12 +465,19 @@ img + .testimonial {
 }
 
 
+/* OWNER EXPERIENCE */
+.owner-exp {
+	margin: 100px 0;
+}
+
+
 
 /* FOOTER */
 
 
 footer {
 	padding-bottom: 50px !important;
+	margin-top: 50px;
 }
 footer p {
 	text-align: center;
