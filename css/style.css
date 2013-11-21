@@ -508,6 +508,9 @@ img + .testimonial {
 	color: #16589b;
 	letter-spacing: 6px;
 }
+.smartphone h2 {
+	margin-top: 90px;
+}
 .mirror {
 	margin-top: -100px;
 }
