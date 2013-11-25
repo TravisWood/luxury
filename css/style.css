@@ -451,6 +451,21 @@ img + .testimonial {
 	font-family: 'Arial', sans-serif;
 	text-align: justify;
 }
+.heads-up {
+	margin: 65px 0;
+}
+.heads-up ul,
+.scc ul {
+	margin: 20px 0;
+}
+.heads-up ul li,
+.scc ul li {
+	list-style: inside;
+	font-family: 'Oxygen', sans-serif;
+	color: #282828;
+	font-size: 18px;
+	letter-spacing: 7px;
+}
 .scc {
 	margin-bottom: 100px;
 }
